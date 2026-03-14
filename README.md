@@ -72,6 +72,9 @@
 **Practices & Tools**
 
 ![BDD](https://img.shields.io/badge/BDD-23D96C?style=flat-square&logo=cucumber&logoColor=white)
+![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
+![Spock](https://img.shields.io/badge/Spock-4898C9?style=flat-square&logo=groovy&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Agile](https://img.shields.io/badge/Agile-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
