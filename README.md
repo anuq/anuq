@@ -28,7 +28,7 @@
 <!-- OSS_PRS_START -->
 | PR | Repository | Description | Status |
 |----|------------|-------------|--------|
-| [#6799](https://github.com/aws/aws-sdk-java-v2/pull/6799) | aws/aws-sdk-java-v2 | fix(dynamodb-enhanced): `DeleteTableOperation#operationName()` returned wrong `OperationName` | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
+| [#6799](https://github.com/aws/aws-sdk-java-v2/pull/6799) | aws/aws-sdk-java-v2 | fix(dynamodb-enhanced): `DeleteTableOperation#operationName()` returned wrong `OperationName` | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): batch requests used composite `batchKey` as `QueueUrl` instead of the real queue URL | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 <!-- OSS_PRS_END -->
 
