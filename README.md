@@ -1,7 +1,6 @@
-<h1 align="center">Hi, I'm Anup Shetye 👋</h1>
+<h1 align="center">Hi, I'm Anup 👋</h1>
 
 <p align="center">
-  <b>Principal Software Engineer · Full Stack</b><br/>
   Java · Spring Boot · Microservices · AI/LLM · AWS · Systems Engineering
 </p>
 
