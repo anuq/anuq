@@ -34,8 +34,25 @@ def gh(url: str) -> dict | list:
         return json.loads(r.read())
 
 
-def search_prs(state: str) -> list[dict]:
-    """Return all PRs (not in own repos) with the given state."""
+def get_starred_repos() -> set[str]:
+    """Return set of 'owner/repo' strings for repos the user has starred."""
+    starred = set()
+    page = 1
+    while True:
+        url = f"https://api.github.com/users/{GITHUB_USER}/starred?per_page=100&page={page}"
+        data = gh(url)
+        if not data:
+            break
+        for repo in data:
+            starred.add(repo["full_name"])
+        if len(data) < 100:
+            break
+        page += 1
+    return starred
+
+
+def search_prs(state: str, starred_repos: set[str]) -> list[dict]:
+    """Return all PRs (not in own repos) with the given state, filtered to starred repos."""
     results = []
     page = 1
     while True:
@@ -48,7 +65,10 @@ def search_prs(state: str) -> list[dict]:
         items = data.get("items", [])
         if not items:
             break
-        results.extend(items)
+        for item in items:
+            repo = repo_from_url(item["html_url"])
+            if repo in starred_repos:
+                results.append(item)
         if len(items) < 100:
             break
         page += 1
@@ -100,12 +120,16 @@ def build_table(prs: list[dict]) -> str:
 
 
 def main():
+    print("Fetching starred repos …")
+    starred_repos = get_starred_repos()
+    print(f"  found {len(starred_repos)} starred repos")
+
     print("Fetching open PRs …")
-    open_prs = search_prs("open")
+    open_prs = search_prs("open", starred_repos)
     print(f"  found {len(open_prs)}")
 
     print("Fetching merged PRs …")
-    merged_prs = search_prs("merged")
+    merged_prs = search_prs("merged", starred_repos)
     print(f"  found {len(merged_prs)}")
 
     # merged first (most recent), then still-open
