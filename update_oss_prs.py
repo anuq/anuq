@@ -20,6 +20,11 @@ GITHUB_USER = os.getenv("GITHUB_USER", "anuq")
 TOKEN = os.getenv("GITHUB_TOKEN", "")
 README = "README.md"
 
+# Repos to exclude even if starred
+BLOCKLIST = {
+    "jcvalladares/xtreamteam",
+}
+
 HEADERS = {
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
@@ -67,7 +72,7 @@ def search_prs(state: str, starred_repos: set[str]) -> list[dict]:
             break
         for item in items:
             repo = repo_from_url(item["html_url"])
-            if repo in starred_repos:
+            if repo in starred_repos and repo not in BLOCKLIST:
                 results.append(item)
         if len(items) < 100:
             break

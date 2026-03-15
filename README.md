@@ -28,42 +28,11 @@
 <!-- OSS_PRS_START -->
 | PR | Repository | Description | Status |
 |----|------------|-------------|--------|
-| [#44](https://github.com/jcvalladares/xtreamteam/pull/44) | jcvalladares/xtreamteam | added behavioral test case | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#43](https://github.com/jcvalladares/xtreamteam/pull/43) | jcvalladares/xtreamteam | added 10 new test cases with TDD approach and fixed failing code | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#42](https://github.com/jcvalladares/xtreamteam/pull/42) | jcvalladares/xtreamteam | updated code | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#41](https://github.com/jcvalladares/xtreamteam/pull/41) | jcvalladares/xtreamteam | updated code and fixed tests | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#40](https://github.com/jcvalladares/xtreamteam/pull/40) | jcvalladares/xtreamteam | Anup | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#39](https://github.com/jcvalladares/xtreamteam/pull/39) | jcvalladares/xtreamteam | merged latest | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#36](https://github.com/jcvalladares/xtreamteam/pull/36) | jcvalladares/xtreamteam | updated the pom for surefire reports | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#35](https://github.com/jcvalladares/xtreamteam/pull/35) | jcvalladares/xtreamteam | updated the test cases | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#34](https://github.com/jcvalladares/xtreamteam/pull/34) | jcvalladares/xtreamteam | latest test cases | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#33](https://github.com/jcvalladares/xtreamteam/pull/33) | jcvalladares/xtreamteam | merging latest | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#32](https://github.com/jcvalladares/xtreamteam/pull/32) | jcvalladares/xtreamteam | fixed tests | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#31](https://github.com/jcvalladares/xtreamteam/pull/31) | jcvalladares/xtreamteam | merging latest | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#30](https://github.com/jcvalladares/xtreamteam/pull/30) | jcvalladares/xtreamteam | added new fields to the users object | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#29](https://github.com/jcvalladares/xtreamteam/pull/29) | jcvalladares/xtreamteam | updated the tests | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#28](https://github.com/jcvalladares/xtreamteam/pull/28) | jcvalladares/xtreamteam | updated the tests | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#27](https://github.com/jcvalladares/xtreamteam/pull/27) | jcvalladares/xtreamteam | added more test cases | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#26](https://github.com/jcvalladares/xtreamteam/pull/26) | jcvalladares/xtreamteam | removed .idea folder | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#25](https://github.com/jcvalladares/xtreamteam/pull/25) | jcvalladares/xtreamteam | added new fields, tests and validation logic | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#24](https://github.com/jcvalladares/xtreamteam/pull/24) | jcvalladares/xtreamteam | added new test cases for QR validator | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#23](https://github.com/jcvalladares/xtreamteam/pull/23) | jcvalladares/xtreamteam | trying to delete target folder | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#22](https://github.com/jcvalladares/xtreamteam/pull/22) | jcvalladares/xtreamteam | trying to delete target folder | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#21](https://github.com/jcvalladares/xtreamteam/pull/21) | jcvalladares/xtreamteam | junits for sprint 2 | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#19](https://github.com/jcvalladares/xtreamteam/pull/19) | jcvalladares/xtreamteam | latest changes for sprint 2 stories | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#18](https://github.com/jcvalladares/xtreamteam/pull/18) | jcvalladares/xtreamteam | added links to the stakeholder meeting photos | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#17](https://github.com/jcvalladares/xtreamteam/pull/17) | jcvalladares/xtreamteam | main to local branch | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#15](https://github.com/jcvalladares/xtreamteam/pull/15) | jcvalladares/xtreamteam | corrected file name | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#14](https://github.com/jcvalladares/xtreamteam/pull/14) | jcvalladares/xtreamteam | added the test cases report | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#13](https://github.com/jcvalladares/xtreamteam/pull/13) | jcvalladares/xtreamteam | merge from main | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#11](https://github.com/jcvalladares/xtreamteam/pull/11) | jcvalladares/xtreamteam | added test cases | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#10](https://github.com/jcvalladares/xtreamteam/pull/10) | jcvalladares/xtreamteam | initial jar | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#9](https://github.com/jcvalladares/xtreamteam/pull/9) | jcvalladares/xtreamteam | Latest changes | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
 | [#44711](https://github.com/huggingface/transformers/pull/44711) | huggingface/transformers | fix: mark new lm_head params as `_is_hf_initialized` after `resize_token_embeddings` | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6799](https://github.com/aws/aws-sdk-java-v2/pull/6799) | aws/aws-sdk-java-v2 | fix(dynamodb-enhanced): return DELETE_TABLE from DeleteTableOperation#operationName() | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-03-15 06:45 UTC_
+_Last updated: 2026-03-15 17:33 UTC_
 <!-- OSS_PRS_END -->
 
 ---
