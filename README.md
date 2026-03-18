@@ -32,7 +32,7 @@
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-03-17 06:53 UTC_
+_Last updated: 2026-03-18 06:52 UTC_
 <!-- OSS_PRS_END -->
 
 ---
