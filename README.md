@@ -27,13 +27,12 @@
 <!-- OSS_PRS_START -->
 | PR | Repository | Description | Status |
 |----|------------|-------------|--------|
+| [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
 | [#44711](https://github.com/huggingface/transformers/pull/44711) | huggingface/transformers | fix: mark new lm_head params as `_is_hf_initialized` after `resize_token_embeddings` | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6799](https://github.com/aws/aws-sdk-java-v2/pull/6799) | aws/aws-sdk-java-v2 | fix(dynamodb-enhanced): return DELETE_TABLE from DeleteTableOperation#operationName() | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
-| [#1616](https://github.com/apache/commons-lang/pull/1616) | apache/commons-lang | [LANG-1813] Fix ArrayUtils#hashCode Javadoc for null input | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
-| [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-03-19 06:46 UTC_
+_Last updated: 2026-03-20 06:42 UTC_
 <!-- OSS_PRS_END -->
 
 ---
