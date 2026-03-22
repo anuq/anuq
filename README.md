@@ -31,7 +31,7 @@
 | [#6799](https://github.com/aws/aws-sdk-java-v2/pull/6799) | aws/aws-sdk-java-v2 | fix(dynamodb-enhanced): return DELETE_TABLE from DeleteTableOperation#operationName() | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-03-21 06:32 UTC_
+_Last updated: 2026-03-22 06:39 UTC_
 <!-- OSS_PRS_END -->
 
 ---
