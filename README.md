@@ -32,7 +32,7 @@
 | [#391](https://github.com/elastic/ecs-logging-java/pull/391) | elastic/ecs-logging-java | Fix unbounded StringBuilder retention in ThreadLocal (memory leak) | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-04-08 07:07 UTC_
+_Last updated: 2026-04-09 07:11 UTC_
 <!-- OSS_PRS_END -->
 
 ---
