@@ -33,7 +33,7 @@
 | [#8362](https://github.com/open-telemetry/opentelemetry-java/pull/8362) | open-telemetry/opentelemetry-java | Limit exemplar label characters to conform to Prometheus limits | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-05-21 08:57 UTC_
+_Last updated: 2026-05-22 08:49 UTC_
 <!-- OSS_PRS_END -->
 
 ---
