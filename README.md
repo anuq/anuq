@@ -15,9 +15,9 @@
 
 ### 🔧 What I Build
 
+- **Enterprise AI Agents** — Claude-powered agentic workflows, prompt chaining, tool orchestration, root cause analysis systems
 - **Distributed Systems** — event-driven architectures, Kafka, CQRS, Event Sourcing, Saga orchestration
 - **High-Performance Services** — low-level systems, custom protocols, data structures, cache engines
-- **AI / LLM Applications** — LangGraph agents, Claude API, RAG pipelines, multi-agent orchestration
 - **Cloud-Native Infrastructure** — AWS (EC2, ECS, API Gateway), Kubernetes, Docker, IaC
 
 ---
@@ -27,11 +27,11 @@
 <!-- OSS_PRS_START -->
 | PR | Repository | Description | Status |
 |----|------------|-------------|--------|
-| [#391](https://github.com/elastic/ecs-logging-java/pull/391) | elastic/ecs-logging-java | Fix unbounded StringBuilder retention in ThreadLocal (memory leak) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#8252](https://github.com/open-telemetry/opentelemetry-java/pull/8252) | open-telemetry/opentelemetry-java | Stop converting unit "1" to "ratio" in Prometheus exporter | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
-| [#8362](https://github.com/open-telemetry/opentelemetry-java/pull/8362) | open-telemetry/opentelemetry-java | Limit exemplar label characters to conform to Prometheus limits | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
-| [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
+| [#391](https://github.com/elastic/ecs-logging-java/pull/391) | elastic/ecs-logging-java | Fix unbounded StringBuilder retention in ThreadLocal (memory leak) | ![merged](https://img.shields.io/badge/[...]
+| [#8252](https://github.com/open-telemetry/opentelemetry-java/pull/8252) | open-telemetry/opentelemetry-java | Stop converting unit "1" to "ratio" in Prometheus exporter | ![merged](https://img.shiel[...]
+| [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![merged](https://img.shields.io/badge/merged-8957e5?s[...]
+| [#8362](https://github.com/open-telemetry/opentelemetry-java/pull/8362) | open-telemetry/opentelemetry-java | Limit exemplar label characters to conform to Prometheus limits | ![open](https://img.sh[...]
+| [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io[...]
 
 _Last updated: 2026-05-30 08:17 UTC_
 <!-- OSS_PRS_END -->
@@ -42,8 +42,9 @@ _Last updated: 2026-05-30 08:17 UTC_
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [event-driven-microservices](https://github.com/anuq/event-driven-microservices) | Order management system with CQRS, Event Sourcing & Saga pattern across 5 microservices | Java 17 · Spring Boot · Kafka · PostgreSQL · MongoDB |
-| [inmemory-data-grid](https://github.com/anuq/inmemory-data-grid) | Distributed in-memory cache (mini Redis) with consistent hashing, LRU/LFU eviction & custom binary protocol | Java 17 · NIO · 35 tests |
+| [claude-enterprise-workflows](https://github.com/anuq/claude-enterprise-workflows) | Claude-powered Root Cause Analysis generator for EKS/Spring/Kafka/Oracle incidents. Demonstrates agentic workflow patterns: prompt chaining, parallelization, orchestrator-workers & routing | Java 17 · Claude API · Spring Boot |
+| [event-driven-microservices](https://github.com/anuq/event-driven-microservices) | Order management system with CQRS, Event Sourcing & Saga pattern across 5 microservices | Java 17 · Spring Boot · Kafka |
+| [inmemory-data-grid](https://github.com/anuq/inmemory-data-grid) | Distributed in-memory cache (mini Redis) with consistent hashing, LRU/LFU eviction & custom binary protocol | Java 17 · NIO |
 
 ---
 
@@ -53,8 +54,6 @@ _Last updated: 2026-05-30 08:17 UTC_
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
 **Backend & Frameworks**
 
@@ -66,9 +65,7 @@ _Last updated: 2026-05-30 08:17 UTC_
 **Messaging & Data**
 
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 **Cloud & DevOps**
@@ -111,7 +108,7 @@ _Last updated: 2026-05-30 08:17 UTC_
 ├── Microservices          Event-driven · Domain-Driven Design · Hexagonal Architecture
 ├── Distributed Systems    Consistent Hashing · Replication · CAP Theorem trade-offs
 ├── Messaging              Kafka · CQRS · Event Sourcing · Saga Orchestration
-├── AI Agents              Multi-agent orchestration · RAG · LangGraph · Tool use
+├── AI Agents              Multi-agent orchestration · RAG · LangGraph · Tool use · Claude
 └── Cloud                  AWS ECS · API Gateway · Kubernetes · Service Mesh
 ```
 
