@@ -27,13 +27,13 @@
 <!-- OSS_PRS_START -->
 | PR | Repository | Description | Status |
 |----|------------|-------------|--------|
-| [#391](https://github.com/elastic/ecs-logging-java/pull/391) | elastic/ecs-logging-java | Fix unbounded StringBuilder retention in ThreadLocal (memory leak) | ![merged](https://img.shields.io/ba[...]
-| [#8252](https://github.com/open-telemetry/opentelemetry-java/pull/8252) | open-telemetry/opentelemetry-java | Stop converting unit "1" to "ratio" in Prometheus exporter | ![merged](https://img.s[...]
-| [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![merged](https://img.shields.io/badge/merged-8957[...]
-| [#8362](https://github.com/open-telemetry/opentelemetry-java/pull/8362) | open-telemetry/opentelemetry-java | Limit exemplar label characters to conform to Prometheus limits | ![open](https://im[...]
-| [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shield[...]
+| [#391](https://github.com/elastic/ecs-logging-java/pull/391) | elastic/ecs-logging-java | Fix unbounded StringBuilder retention in ThreadLocal (memory leak) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
+| [#8252](https://github.com/open-telemetry/opentelemetry-java/pull/8252) | open-telemetry/opentelemetry-java | Stop converting unit "1" to "ratio" in Prometheus exporter | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
+| [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
+| [#8362](https://github.com/open-telemetry/opentelemetry-java/pull/8362) | open-telemetry/opentelemetry-java | Limit exemplar label characters to conform to Prometheus limits | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
+| [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-05-31 05:18 UTC_
+_Last updated: 2026-05-31 05:24 UTC_
 <!-- OSS_PRS_END -->
 
 ---
