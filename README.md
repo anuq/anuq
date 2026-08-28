@@ -33,7 +33,7 @@
 | [#1827](https://github.com/apache/stormcrawler/pull/1827) | apache/stormcrawler | fix(core): make Metadata keys consistently case-insensitive | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square) |
 | [#6798](https://github.com/aws/aws-sdk-java-v2/pull/6798) | aws/aws-sdk-java-v2 | fix(sqs-batch-manager): use original queueUrl instead of batchKey in batch requests | ![open](https://img.shields.io/badge/open-238636?style=flat-square) |
 
-_Last updated: 2026-08-27 17:07 UTC_
+_Last updated: 2026-08-28 17:54 UTC_
 <!-- OSS_PRS_END -->
 
 ---
